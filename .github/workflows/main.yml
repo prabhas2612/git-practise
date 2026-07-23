@@ -1,9 +1,0 @@
-name: vasnath-1
-on: workflow_dispatch
-jobs:
-  job-1:
-    runs-on : ubuntu-latest
-    steps:
-    - run: free -h
-    - run: touch vasnath
-  
