@@ -1,0 +1,12 @@
+Name: test-work
+On:
+  Workflow_dispatch
+Jobs:
+  Job-1:
+    Runs-on: ubuntu-latest
+    Steps:
+      - run: echo “Step 1”
+      - run: date
+      - run: hostname
+      - run: free -m
+      - run: df -h
