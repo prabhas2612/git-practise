@@ -1,0 +1,11 @@
+name: test-1
+on: workflow_dispatch
+jobs:
+  built:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+        run: echo "building the file"
+          free -h
+          hostname
+          df -h
