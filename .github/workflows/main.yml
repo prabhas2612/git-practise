@@ -4,7 +4,6 @@ jobs:
    test:
      runs-on: ubuntu-latest
      steps:
-        - run: github.actor
         - name: run if or
-          if: github.actor == 'prabhas'  ||  github.actor == 'vasanth'
+          if: github.actor == 'prabhas'  && github.actor == 'prabhas2612'
           run: echo "triggered"
